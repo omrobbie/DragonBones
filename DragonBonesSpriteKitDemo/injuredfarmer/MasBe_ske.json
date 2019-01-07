@@ -1,0 +1,676 @@
+
+{
+    "armature": [
+        {
+            "frameRate": 24,
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "geleng"
+                }
+            ],
+            "aabb": {
+                "x": -888.1939057703856,
+                "y": -1412.0635495912338,
+                "width": 1592,
+                "height": 1541.587241541023
+            },
+            "ik": [],
+            "bone": [
+                {
+                    "transform": {
+                        "y": -267.4116,
+                        "x": 133.7058
+                    },
+                    "name": "root"
+                },
+                {
+                    "length": 218,
+                    "parent": "root",
+                    "transform": {
+                        "y": -3.8384,
+                        "x": -156.5058,
+                        "skX": -92.4799,
+                        "skY": -92.4799
+                    },
+                    "name": "Body"
+                },
+                {
+                    "length": 130,
+                    "parent": "root",
+                    "transform": {
+                        "y": 39.8616,
+                        "x": -218.8558,
+                        "skX": 93.4117,
+                        "skY": 93.4117
+                    },
+                    "name": "Rite_Leg"
+                },
+                {
+                    "length": 149,
+                    "parent": "root",
+                    "transform": {
+                        "y": 24.3616,
+                        "x": -88.8558,
+                        "skX": 80.4271,
+                        "skY": 80.4271
+                    },
+                    "name": "Left_Leg"
+                },
+                {
+                    "length": 337,
+                    "parent": "Body",
+                    "transform": {
+                        "y": -1.9099,
+                        "x": 262.1281,
+                        "skX": 4.3129,
+                        "skY": 4.3129
+                    },
+                    "name": "Head"
+                },
+                {
+                    "length": 218,
+                    "parent": "Body",
+                    "transform": {
+                        "y": -134.9576,
+                        "x": 194.5716,
+                        "skX": -172.1642,
+                        "skY": -172.1642
+                    },
+                    "name": "Rite_Arm"
+                },
+                {
+                    "length": 216,
+                    "parent": "Body",
+                    "transform": {
+                        "y": 84.8645,
+                        "x": 185.702,
+                        "skX": 162.5737,
+                        "skY": 162.5737
+                    },
+                    "name": "Left_Arm"
+                },
+                {
+                    "length": 89,
+                    "parent": "Rite_Leg",
+                    "transform": {
+                        "y": -1.7526,
+                        "x": 159.6286,
+                        "skX": -11.4144,
+                        "skY": -11.4144
+                    },
+                    "name": "bone3"
+                },
+                {
+                    "length": 70,
+                    "parent": "Left_Leg",
+                    "transform": {
+                        "y": -6.0098,
+                        "x": 178.4341,
+                        "skX": -19.2415,
+                        "skY": -19.2415
+                    },
+                    "name": "bone4"
+                },
+                {
+                    "length": 92,
+                    "parent": "Head",
+                    "transform": {
+                        "y": 141.4806,
+                        "x": 10.8088,
+                        "skX": 123.2337,
+                        "skY": 123.2337
+                    },
+                    "name": "bone2"
+                },
+                {
+                    "length": 125,
+                    "parent": "Head",
+                    "transform": {
+                        "y": -178.7641,
+                        "x": -4.6889,
+                        "skX": -126.286,
+                        "skY": -126.286
+                    },
+                    "name": "Rite_tail"
+                },
+                {
+                    "length": 66,
+                    "parent": "Left_Arm",
+                    "transform": {
+                        "y": 2.4163,
+                        "x": 233.2592,
+                        "skX": 20.2629,
+                        "skY": 20.2629
+                    },
+                    "name": "bone"
+                },
+                {
+                    "length": 76,
+                    "parent": "Rite_Arm",
+                    "transform": {
+                        "y": -2.3131,
+                        "x": 243.7486,
+                        "skX": 10.2205,
+                        "skY": 10.2205
+                    },
+                    "name": "bone1"
+                }
+            ],
+            "skin": [
+                {
+                    "name": "",
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "transform": {
+                                        "y": 8.8942,
+                                        "scY": 0.35,
+                                        "x": 110.8629,
+                                        "scX": 0.35,
+                                        "skX": -89.2351,
+                                        "skY": -89.2351
+                                    },
+                                    "name": "MasBe/Asset 24",
+                                    "path": "Asset 24"
+                                }
+                            ],
+                            "name": "Rite_Arm"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "transform": {
+                                        "y": -9.4575,
+                                        "scY": 0.35,
+                                        "x": 20.2868,
+                                        "scX": 0.35,
+                                        "skX": -61.1857,
+                                        "skY": -61.1857
+                                    },
+                                    "name": "MasBe/Asset 32",
+                                    "path": "Asset 32"
+                                }
+                            ],
+                            "name": "Left_Foot"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "transform": {
+                                        "y": 12.1808,
+                                        "scY": 0.35,
+                                        "x": 67.8314,
+                                        "scX": 0.35,
+                                        "skX": -149.0246,
+                                        "skY": -149.0246
+                                    },
+                                    "name": "MasBe/Asset 23",
+                                    "path": "Asset 23"
+                                }
+                            ],
+                            "name": "Rite_tail"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "transform": {
+                                        "y": -15.1744,
+                                        "scY": 0.35,
+                                        "x": 25.7086,
+                                        "scX": 0.35,
+                                        "skX": -81.9973,
+                                        "skY": -81.9973
+                                    },
+                                    "name": "MasBe/Asset 30",
+                                    "path": "Asset 30"
+                                }
+                            ],
+                            "name": "Rite_Foot"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "transform": {
+                                        "y": 46.8289,
+                                        "scY": 0.35,
+                                        "x": -44.1604,
+                                        "scX": 0.35,
+                                        "skX": 90.6447,
+                                        "skY": 90.6447
+                                    },
+                                    "name": "MasBe/Asset 21",
+                                    "path": "Asset 21"
+                                }
+                            ],
+                            "name": "Mouth"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "transform": {
+                                        "y": -2.7432,
+                                        "scY": 0.35,
+                                        "x": 113.3149,
+                                        "scX": 0.35,
+                                        "skX": -67.4158,
+                                        "skY": -67.4158
+                                    },
+                                    "name": "MasBe/Asset 27",
+                                    "path": "Asset 27"
+                                }
+                            ],
+                            "name": "Left_Arm"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "transform": {
+                                        "y": -15.7544,
+                                        "scY": 0.35,
+                                        "x": 11.2579,
+                                        "scX": 0.35,
+                                        "skX": -70.5308,
+                                        "skY": -70.5308
+                                    },
+                                    "name": "MasBe/Asset 25",
+                                    "path": "Asset 25"
+                                }
+                            ],
+                            "name": "Rite_Hand"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "transform": {
+                                        "y": -0.1428,
+                                        "scY": 0.35,
+                                        "x": 12.9981,
+                                        "scX": 0.35,
+                                        "skX": -104.8368,
+                                        "skY": -104.8368
+                                    },
+                                    "name": "MasBe/Asset 28",
+                                    "path": "Asset 28"
+                                }
+                            ],
+                            "name": "Left_Hand"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "transform": {
+                                        "y": -6.0389,
+                                        "scY": 0.35,
+                                        "x": 57.677,
+                                        "scX": 0.35,
+                                        "skX": -36.5979,
+                                        "skY": -36.5979
+                                    },
+                                    "name": "MasBe/Asset 22",
+                                    "path": "Asset 22"
+                                }
+                            ],
+                            "name": "Left_tail"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "transform": {
+                                        "y": -4.5859,
+                                        "scY": 0.35,
+                                        "x": 70.1276,
+                                        "scX": 0.35,
+                                        "skX": -80.4271,
+                                        "skY": -80.4271
+                                    },
+                                    "name": "MasBe/Asset 31",
+                                    "path": "Asset 31"
+                                }
+                            ],
+                            "name": "Left_Leg"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "transform": {
+                                        "y": -61.7773,
+                                        "scY": 0.35,
+                                        "x": 175.1271,
+                                        "scX": 0.35,
+                                        "skX": 90.6447,
+                                        "skY": 90.6447
+                                    },
+                                    "name": "MasBe/Asset 17",
+                                    "path": "Asset 17"
+                                }
+                            ],
+                            "name": "Head"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "transform": {
+                                        "y": -1.2846,
+                                        "scY": 0.35,
+                                        "x": 52.8028,
+                                        "scX": 0.35,
+                                        "skX": -93.4117,
+                                        "skY": -93.4117
+                                    },
+                                    "name": "MasBe/Asset 29",
+                                    "path": "Asset 29"
+                                }
+                            ],
+                            "name": "Rite_Leg"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "transform": {
+                                        "y": 46.887,
+                                        "scY": 0.35,
+                                        "x": 55.8375,
+                                        "scX": 0.35,
+                                        "skX": 90.6447,
+                                        "skY": 90.6447
+                                    },
+                                    "name": "MasBe/Asset 18",
+                                    "path": "Asset 18"
+                                }
+                            ],
+                            "name": "Eyes"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "transform": {
+                                        "y": -11.2636,
+                                        "scY": 0.2898,
+                                        "x": 89.7978,
+                                        "scX": 0.2898,
+                                        "skX": 92.4799,
+                                        "skY": 92.4799
+                                    },
+                                    "name": "MasBe/Asset 26",
+                                    "path": "Asset 26"
+                                }
+                            ],
+                            "name": "Body"
+                        }
+                    ]
+                }
+            ],
+            "type": "Armature",
+            "animation": [
+                {
+                    "duration": 8,
+                    "ffd": [],
+                    "frame": [],
+                    "bone": [
+                        {
+                            "frame": [
+                                {
+                                    "duration": 8,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "root"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 8,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "Body"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 8,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "Rite_Leg"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 8,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "Left_Leg"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -2.8922,
+                                        "skY": -2.8922
+                                    }
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -5.0031,
+                                        "skY": -5.0031
+                                    }
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -9.9511,
+                                        "skY": -9.9511
+                                    }
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -7.0633,
+                                        "skY": -7.0633
+                                    }
+                                },
+                                {
+                                    "duration": 0,
+                                    "transform": {
+                                        "skX": -4.222,
+                                        "skY": -4.222
+                                    }
+                                }
+                            ],
+                            "name": "Head"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 8,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "Rite_Arm"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 8,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "Left_Arm"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 8,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "bone3"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 8,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "bone4"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 8,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "bone2"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 8,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "Rite_tail"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 8,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "bone"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 8,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "bone1"
+                        }
+                    ],
+                    "playTimes": 0,
+                    "ik": [],
+                    "name": "geleng",
+                    "slot": []
+                }
+            ],
+            "name": "Armature",
+            "slot": [
+                {
+                    "color": {},
+                    "name": "Left_Hand",
+                    "parent": "bone"
+                },
+                {
+                    "z": 1,
+                    "color": {},
+                    "name": "Left_Foot",
+                    "parent": "bone4"
+                },
+                {
+                    "z": 2,
+                    "color": {},
+                    "name": "Left_Leg",
+                    "parent": "Left_Leg"
+                },
+                {
+                    "z": 3,
+                    "color": {},
+                    "name": "Rite_Foot",
+                    "parent": "bone3"
+                },
+                {
+                    "z": 4,
+                    "color": {},
+                    "name": "Rite_Leg",
+                    "parent": "Rite_Leg"
+                },
+                {
+                    "z": 5,
+                    "color": {},
+                    "name": "Left_Arm",
+                    "parent": "Left_Arm"
+                },
+                {
+                    "z": 6,
+                    "color": {},
+                    "name": "Body",
+                    "parent": "Body"
+                },
+                {
+                    "z": 7,
+                    "color": {},
+                    "name": "Rite_Hand",
+                    "parent": "bone1"
+                },
+                {
+                    "z": 8,
+                    "color": {},
+                    "name": "Rite_Arm",
+                    "parent": "Rite_Arm"
+                },
+                {
+                    "z": 9,
+                    "color": {},
+                    "name": "Left_tail",
+                    "parent": "bone2"
+                },
+                {
+                    "z": 10,
+                    "color": {},
+                    "name": "Rite_tail",
+                    "parent": "Rite_tail"
+                },
+                {
+                    "z": 11,
+                    "color": {},
+                    "name": "Head",
+                    "parent": "Head"
+                },
+                {
+                    "z": 12,
+                    "color": {},
+                    "name": "Mouth",
+                    "parent": "Head"
+                },
+                {
+                    "z": 13,
+                    "color": {},
+                    "name": "Eyes",
+                    "parent": "Head"
+                }
+            ]
+        }
+    ],
+    "version": "4.5",
+    "frameRate": 24,
+    "isGlobal": 0,
+    "name": "MasBe"
+}
